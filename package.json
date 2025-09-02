@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "webpack --config webpack.config.js",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open --port 3000",
     "build": "webpack --config webpack.config.js",
     "test": "jest",
