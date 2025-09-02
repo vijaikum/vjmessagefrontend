@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
-globalThis.baseURL = "https://vjmessagebackend.onrender.com/";
+globalThis.baseURL = "https://vjmessagebackend.onrender.com";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
