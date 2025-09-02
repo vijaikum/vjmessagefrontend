@@ -32,7 +32,7 @@ function Error() {
       <div className="instructions">
         <h2>
           Sorry, something went wrong on our end. 
-          Please check if Message board backend service is running in <a target="_blank" href="https://vjmessagebackend.onrender.com/healthcheck" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">http://localhost:4000</a>.
+          Please check if Message board backend service is running in <a target="_blank" href="https://vjmessagebackend.onrender.com/healthcheck" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">https://vjmessagebackend.onrender.com</a>.
         </h2>
         <p>You can retry if running:</p>
         <div className="step">

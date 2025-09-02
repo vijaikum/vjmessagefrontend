@@ -2,11 +2,8 @@ import Home from "./routes/Home";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import TestResult from './components/TestResult';
 import { ChannelType } from "./@types/index";
 import ErrorPage from "./routes/errorPage";
-import ListRender from "./components/ListRendering"; 
-import FetchData from "./components/FetchData";
 
 function App() {
   const [channels, setChannels] = useState<ChannelType[]>([]);
@@ -29,9 +26,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home channels={channels} />} />
         <Route path="/Error" element={<ErrorPage />} />
-        <Route path='/test' element={<TestResult/>}/>
-        <Route path='/list' element={<ListRender/>}/>
-        <Route path="/fetchData" element={<FetchData/>}/>
       </Routes>
     </div>
   );
